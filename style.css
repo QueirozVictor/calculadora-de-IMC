@@ -7,50 +7,76 @@
 }
 
 body {
-    background-color: #0C7489;
+    background-color: #013f4b;
     display: flex;
     flex-direction: column;
 }
 
 header {
-    color: #f7f7f2;
+    color: #f1f1f1;
     flex: auto;
     margin: auto;
     font-size: 90%;
     max-width: 400px;
     min-width: 322px;
     text-align: center;
-
 }
 
 main {
-    background-color: #031926c4;
-    color: #f7f7f2;
-    flex: auto;
+    background-color: #bee2f6c4;
+    text-align: center;
+    color: #1f1f1f;
     margin: auto;
     margin-top: 10px;
-    padding: 40px;
-    border-radius: 8px;
-    text-align: center;
+    padding: 2rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #f1f1f1;
+    width: 60%;
 }
+
 main label{
-    font-size: 130%;
+    font-size: 1.5rem;
 }
 
 main input {
-    height: 25px;
-}
-main button {
-    width: 100px;
-    height: 30px;
+    height: 35px;
+    width: 80%;
+    border: none;
     border-radius: 5px;
-    font-weight: bold;
-    box-shadow: 1px 1px 8px rgba(0, 255, 238, 0.964);
-    margin-top: 20px;
 }
 
-main p {
-    color: #f7f7f2;
+main input:hover{
+    box-shadow: 0px 0px 5px #013f4b;
+}
+
+main button {
+    background-color: #013f4bfc;
+    font-weight: bold;
+    color: #f1f1f1;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 4px #013f4b;
+    margin-top: 20px;
+    width: 40%;
+    height: 30px;
+}
+
+main button:hover{
+    background-color: #013f4bbe;
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    background-color: #013f4b;
+    color: #f1f1f1;
     font-size: 120%;
+    width: 70%;
+    height: 7rem;
+    border-radius: 5px;
     margin-top: 10px;
+    padding: 10px;
 }

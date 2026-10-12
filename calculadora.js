@@ -24,19 +24,19 @@ function CalcularIMC(){
     }
     else if (IMC < 29.9) {
         classificação = "Sobrepeso";
-        cor = "red";
+        cor = "pink";
     }
     else if (IMC < 34.9) {
         classificação = "Obesidade grau 1";
-        cor = "#89fc00";
+        cor = "#ebfc00";
     }
     else if (IMC < 39.9) {
         classificação = "Obesidade grau 2";
-        cor = "yellow";
+        cor = "orange";
     }
     else {
         classificação = "Obesidade grau 3";
-        cor = "black";
+        cor = "red";
     }
 
 //Saida
